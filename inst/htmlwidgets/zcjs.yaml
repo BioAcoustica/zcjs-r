@@ -1,0 +1,11 @@
+dependencies:
+  - name: zcjs
+    version: 0.1
+    src: htmlwidgets/lib/zcjs
+    script:
+      - zcjs.js
+  - name: plotly
+    version: 1.0
+    src: htmlwidgets/lib/plotly
+    script:
+      - plotly.min.js
