@@ -1,0 +1,12 @@
+citHeader("To cite zcjs in publications use:")
+
+citEntry(
+  entry    = "Manual",
+  title    = "zcjs",
+  author   = "Baker, E.",
+  year     = "2022",
+  url      = "https://github.com/bioacoustica/zcjs-r",
+  textVersion = paste(
+    "Baker, E. (2022) zcjs. https://github.com/bioacoustica/zcjs-r."
+  )
+)
