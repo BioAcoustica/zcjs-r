@@ -1,10 +1,10 @@
 Package: zcjs
-Title: What the Package Does (One Line, Title Case)
+Title: Zero-crossing file display in R using zcjs
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Ed", "Baker", , "ed@ebaker.me.uk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5887-9543"))
+Description: Use the zcjs library to view zero-crossing audio files in R (including Shiny).
 License: AGPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
