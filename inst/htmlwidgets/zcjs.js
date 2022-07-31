@@ -13,6 +13,8 @@ HTMLWidgets.widget({
 
         if (x.settings.x_compress) {
           zc.x_compress = true;
+        } else {
+          zc.x_compress = false;
         }
         zc.setURL(x.url);
       },
