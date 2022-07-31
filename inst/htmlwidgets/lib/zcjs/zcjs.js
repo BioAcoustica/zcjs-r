@@ -117,7 +117,7 @@ class ZCJS {
       plotly_y_axis = {fixedrange:this.y_fixed, range: [this.y_range[0], this.y_range[1]]};
     }
 
-    Plotly.plot( zcplot,
+    Plotly.newPlot( zcplot,
         [{
            x: this.x_compress ? this._c_time : this._time,
            y: this.x_compress ? this._c_freq : this._freq,
@@ -198,9 +198,9 @@ class ZCJS {
     var timeData = [];
     var showDot = new Array(0,1);
     var nBytes = this._fileRawData.length;
-  
+
     if ((params.RES1 > 60000) || (params.RES1 < 10000)) { return(null); }
-  
+
     while ((p < nBytes) && (t <  16384)) {
       if (this._fileRawData[p] < 128) {
         dif = this._fileRawData[p];
